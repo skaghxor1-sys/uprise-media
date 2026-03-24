@@ -363,7 +363,7 @@
         <p class="text-gray-500 mt-4 text-lg">클릭하면 행사 사진을 모아 볼 수 있습니다</p>
       </div>
       <!-- Portfolio Grid - Event Cards -->
-      <div id="portfolio-grid" class="grid md:grid-cols-2 gap-8">
+      <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Event 1: 장애인서비스 업무 담당자 워크숍 -->
         <div class="fade-in portfolio-item rounded-2xl card-hover cursor-pointer" onclick="openGallery('workshop-2025')">
           <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
@@ -377,7 +377,20 @@
             </div>
           </div>
         </div>
-        <!-- Event 2: 감탄장4 -->
+        <!-- Event 2: 제주물 세계포럼 포토부스 -->
+        <div class="fade-in portfolio-item rounded-2xl card-hover cursor-pointer" onclick="openGallery('jeju-water-forum')">
+          <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <img src="images/jeju-water-forum-photobooth/A7401824.jpg" alt="제주물 세계포럼 포토부스" class="w-full h-full object-cover">
+            <div class="overlay rounded-2xl">
+              <div class="text-center text-white px-4">
+                <p class="text-accent text-sm font-semibold mb-1">2025</p>
+                <h4 class="font-bold text-xl">제주물 세계포럼 포토부스</h4>
+                <p class="text-white/70 text-sm mt-2">📷 6장</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Event 3: 감탄장4 -->
         <div class="fade-in portfolio-item rounded-2xl card-hover cursor-pointer" onclick="openGallery('gamtanjang4')">
           <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
             <img src="images/gamtanjang4/20251102_0001.jpg" alt="탄소감소 축제 감탄장4" class="w-full h-full object-cover">
@@ -604,6 +617,18 @@
           'images/workshop-2025/WON07075.jpg',
           'images/workshop-2025/WON07427.jpg',
           'images/workshop-2025/WON07567.jpg'
+        ]
+      },
+      'jeju-water-forum': {
+        year: '2025',
+        title: '제주물 세계포럼 포토부스',
+        images: [
+          'images/jeju-water-forum-photobooth/A7401824.jpg',
+          'images/jeju-water-forum-photobooth/A7401826.jpg',
+          'images/jeju-water-forum-photobooth/A7401850.jpg',
+          'images/jeju-water-forum-photobooth/A7401855.jpg',
+          'images/jeju-water-forum-photobooth/A7401875.jpg',
+          'images/jeju-water-forum-photobooth/A7401920.jpg'
         ]
       },
       'gamtanjang4': {
